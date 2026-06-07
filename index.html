@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+    <link rel="icon" href="logoroxa.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Login2</title>
+</head>
+
+<body>
+    <nav class="logo">
+        <img src="logoroxa.png" id="imagem" alt="Logo">
+    </nav>
+    <div class="estrela"></div>
+    <main class="container">
+        <form>
+            <h1>Login</h1>
+            <div class="login">
+                <input type="text" id="usuario" placeholder="Usuário" required>
+                <i class="bx bxs-user"></i>
+            </div>
+            <div class="login">
+                <input type="password" placeholder="Senha" id="senha" required>
+                <i class="bx bx-eye-closed" id="olhinho"></i>
+            </div>
+            <div class="remember">
+                <label for="checkbox"><input type="checkbox" name="check" id="lembrar">Lembrar senha</label>
+                <a href="#">Esqueci a senha</a>
+            </div>
+            <div class="butao">
+            <button type="button" class="btn" onclick="logar()" id="kkks">Login</button>
+            <br>
+            <p id="resultado"></p>
+            </div>
+            <div class="register" id="kkks">
+                <p>Não tem uma conta? <a href="https://paulin-cyber.github.io/Register2.0/">Registre-se</a></p>
+                <br>
+                <button id="dif" onclick="tema()">Tema</button>
+            </div>
+        </form>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
