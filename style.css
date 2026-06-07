@@ -222,11 +222,11 @@ img{
         text-decoration: none;
         color: white;
         font-weight: 600;
+        transition: all 0.3s ease-in-out;
     }
     .remember a:hover{
         text-decoration: underline;
         color: dodgerblue;
-        transition: all 0.3s ease-in-out;
     }
     .btn{
         width: 100%;
